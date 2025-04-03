@@ -31,7 +31,7 @@
 		9C59D76626B6F45200AB05B4 /* TickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerView.swift; sourceTree = "<group>"; };
 		9CA9D30326B6DFBD00F9C822 /* LittleJohn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleJohn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA9D30626B6DFBD00F9C822 /* LittleJohnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleJohnApp.swift; sourceTree = "<group>"; };
-		9CA9D30826B6DFBD00F9C822 /* SymbolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolListView.swift; sourceTree = "<group>"; };
+		9CA9D30826B6DFBD00F9C822 /* SymbolListView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = SymbolListView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		9CA9D30A26B6DFBF00F9C822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC9E05326C50CCF00E2B42E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
