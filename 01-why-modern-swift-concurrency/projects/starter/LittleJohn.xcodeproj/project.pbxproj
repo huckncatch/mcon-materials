@@ -25,10 +25,10 @@
 		9C1AFC5526C276870009636E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1AFC5726C284910009636E /* StartUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartUp.storyboard; sourceTree = "<group>"; };
 		9C39C0D826B9C64E007A318E /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
-		9C39C0DA26B9C781007A318E /* LittleJohnModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleJohnModel.swift; sourceTree = "<group>"; };
+		9C39C0DA26B9C781007A318E /* LittleJohnModel.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LittleJohnModel.swift; sourceTree = "<group>"; tabWidth = 4; };
 		9C3CAB3F27117B8F0017A49D /* SymbolRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRow.swift; sourceTree = "<group>"; };
 		9C3CAB4127117D030017A49D /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
-		9C59D76626B6F45200AB05B4 /* TickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerView.swift; sourceTree = "<group>"; };
+		9C59D76626B6F45200AB05B4 /* TickerView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = TickerView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		9CA9D30326B6DFBD00F9C822 /* LittleJohn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleJohn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA9D30626B6DFBD00F9C822 /* LittleJohnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleJohnApp.swift; sourceTree = "<group>"; };
 		9CA9D30826B6DFBD00F9C822 /* SymbolListView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = SymbolListView.swift; sourceTree = "<group>"; tabWidth = 4; };
