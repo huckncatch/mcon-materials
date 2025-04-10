@@ -54,8 +54,12 @@ struct DownloadView: View {
                 isDownloading: !model.downloads.isEmpty,
                 isDownloadActive: $isDownloadActive,
                 downloadSingleAction: {
+                    isDownloadActive = true
                     Task {
-                        fileData = try await model.download(file: file)
+                        do {
+                            fileData = try await model.download(file: file)
+                        } catch { }
+                        isDownloadActive = false
                     }
                 },
                 downloadWithUpdatesAction: {
