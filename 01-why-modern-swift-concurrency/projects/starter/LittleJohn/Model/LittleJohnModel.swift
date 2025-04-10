@@ -60,6 +60,10 @@ class LittleJohnModel: ObservableObject {
                 tickerSymbols = sortedSymbols
             }
         }
+
+        await MainActor.run {
+            tickerSymbols = []
+        }
     }
 
     /// A URL session that lets requests run indefinitely so we can receive live updates from server.
