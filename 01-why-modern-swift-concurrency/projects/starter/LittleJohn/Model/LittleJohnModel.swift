@@ -58,7 +58,6 @@ class LittleJohnModel: ObservableObject {
 
             await MainActor.run {
                 tickerSymbols = sortedSymbols
-                print("Updated: \(Date())")
             }
         }
     }
