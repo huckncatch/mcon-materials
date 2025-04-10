@@ -35,6 +35,7 @@ import UIKit
 
 /// The file download view.
 struct DownloadView: View {
+
     /// The selected file.
     let file: DownloadFile
     @EnvironmentObject var model: SuperStorageModel
@@ -53,7 +54,9 @@ struct DownloadView: View {
                 isDownloading: !model.downloads.isEmpty,
                 isDownloadActive: $isDownloadActive,
                 downloadSingleAction: {
-                    // Download a file in a single go.
+                    Task {
+                        fileData = try await model.download(file: file)
+                    }
                 },
                 downloadWithUpdatesAction: {
                     // Download a file with UI progress updates.
