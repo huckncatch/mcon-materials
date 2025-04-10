@@ -94,6 +94,20 @@ class SuperStorageModel: ObservableObject {
         return list
     }
 
+    func status() async throws -> String {
+        guard let url = URL(string: "http://localhost:8080/files/status") else {
+            throw "Could not create the URL."
+        }
+
+        let (data, response) = try await URLSession.shared.data(from: url/*, delegate: nil*/)
+
+        guard (response as? HTTPURLResponse)?.statusCode == 200 else {
+            throw "The server responded with an error."
+        }
+
+        return String(decoding: data, as: UTF8.self)
+    }
+
     @MainActor func reset() {
         stopDownloads = false
         downloads.removeAll()
