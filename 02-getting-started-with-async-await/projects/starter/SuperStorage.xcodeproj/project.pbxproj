@@ -27,18 +27,18 @@
 		9C1AFC5A26C285EF0009636E /* StartUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartUp.storyboard; sourceTree = "<group>"; };
 		9C1AFC5D26C287540009636E /* SerreriaSobria.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SerreriaSobria.otf; sourceTree = "<group>"; };
 		9C1AFC5F26C287600009636E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C72072A26CA7B8100726D6D /* FilePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePreview.swift; sourceTree = "<group>"; };
+		9C72072A26CA7B8100726D6D /* FilePreview.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = FilePreview.swift; sourceTree = "<group>"; tabWidth = 4; };
 		9C72072C26CA7BE200726D6D /* Downloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloads.swift; sourceTree = "<group>"; };
 		9C72072E26CA7C6100726D6D /* FileDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDetails.swift; sourceTree = "<group>"; };
 		9C72073026CA7E6100726D6D /* FileListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListItem.swift; sourceTree = "<group>"; };
 		9C972CCF26C116F600E48FAC /* SuperStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C972CD226C116F600E48FAC /* SuperStorageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperStorageApp.swift; sourceTree = "<group>"; };
-		9C972CD426C116F600E48FAC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		9C972CD426C116F600E48FAC /* ListView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		9C972CD626C116F900E48FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C972CE026C1172300E48FAC /* SuperStorageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperStorageModel.swift; sourceTree = "<group>"; };
+		9C972CE026C1172300E48FAC /* SuperStorageModel.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = SuperStorageModel.swift; sourceTree = "<group>"; tabWidth = 4; };
 		9C972CE326C1179A00E48FAC /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
-		9C972CE526C1204F00E48FAC /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
-		9CB1ACF326CBE09600EC8427 /* ByteAccumulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteAccumulator.swift; sourceTree = "<group>"; };
+		9C972CE526C1204F00E48FAC /* DownloadView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		9CB1ACF326CBE09600EC8427 /* ByteAccumulator.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ByteAccumulator.swift; sourceTree = "<group>"; tabWidth = 4; };
 		9CFDA58626C9810600F6490D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
