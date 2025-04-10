@@ -87,5 +87,9 @@ struct DownloadView: View {
             }, label: { Text("Cancel All") })
             .disabled(model.downloads.isEmpty)
         }
+        .onDisappear {
+            fileData = nil
+            model.reset()
+        }
     }
 }
